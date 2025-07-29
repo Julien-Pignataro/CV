@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #ffffff ;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: solid;
+    margin-right: 30px;
+    object-fit: cover;
+}
