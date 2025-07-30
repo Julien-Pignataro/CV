@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Julien Pignataro</title>
+    <link rel="icon" href="cv.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
 <body>
     <div class="cv">
@@ -39,18 +39,30 @@
         <aside class="colonne-gauche">
             <section>
             <h2>Compétences</h2>
-                <p class="titre">HTML ⭐️⭐️⭐️⭐️</p>
-                <p class="titre">CSS ⭐️⭐️⭐️</p>
+                <p class="titre">HTML 
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="far fa-star" style="color: #17abba"></i>
+                </p>
+                <p class="titre">CSS 
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="fas fa-star" style="color: #17abba"></i>
+                    <i class="far fa-star" style="color: #17abba"></i>
+                    <i class="far fa-star" style="color: #17abba"></i>
+                </p>
             </section>
 
             <section>
                 <h2>Langue</h2>
-                <p class="titre">Français</p> <p class="titre2">Langue maternelle</p>
+                <p class="titre1">Français</p> 
             </section>
 
             <section>
                 <h2>Qualités</h2>
-                <ul>
+                <ul class="carre">
                     <li>Organisation</li>
                     <li>Créativité</li>
                     <li>Esprit d'équipe</li>
@@ -60,7 +72,7 @@
 
             <section>
                 <h2>Centre d'intérêt</h2>
-                <ul>
+                <ul class="carre">
                     <li>Football</li>
                     <li>Crossfit</li>
                     <li>Voyages</li>
@@ -71,42 +83,66 @@
         
         <section class="colonne-droite">
                 <h2>Profil</h2>
-                <p class="text">Actuellement a la recherche d'une opportunité nouvelle.
-                    En pleine formation "Développeur Web et Web Mobile" , curieux de découvrir le métier dans le monde d'une entreprise.
-                    Motivant et motivé je suis a l'écoute.
+                    <p class="text">Actuellement a la recherche d'une opportunité nouvelle.
+                        En pleine formation "Développeur Web et Web Mobile" , curieux de découvrir le métier dans le monde d'une entreprise.
+                        Motivant et motivé je suis a l'écoute.
                 </p>
             
                 <h2>Formations</h2>
-                <p class="titre">Formation développeur web et web mobile. En cours (2025)</p>
-                <p class="titre1">Centre Européen de Formation</p>
-                <p class="titre">Agent de sécurité du personnel (ferroviare). 2015</p>
-                <p class="titre1">Local SF2A</p>
-                <p class="titre">CAP vente. 2012</p>
-                <p class="titre1">ILFA Lbourne</p>
+                    <section class="survol">
+                      <p class="titre">Formation développeur web et web mobile. <span class="date">En cours (2025)</span></p>
+                      <p class="titre1">Centre Européen de Formation</p>
+                    </section>
 
-            <section>
-                <h2>Stages</h2>
-                <p class="titre">Crossfit Saint-émilion. Avril 2025</p>
-                <p class="titre">Imprimerie Roux. 2010</p>
+                    <section class="survol">
+                      <p class="titre">Agent de sécurité du personnel (ferroviare). <span class="date">2015</span></p>
+                      <p class="titre1">Local SF2A</p>
+                    </section>
+
+                    <section class="survol">
+                      <p class="titre">CAP vente. <span class="date">2012</span></p>
+                      <p class="titre1">ILFA Libourne</p>
+                    </section>
+        <section>
             
-                <h2>Expériences Professionnelles</h2>
-                <p class="titre">Technicien polyvalent  2023-2024</p>
-                <p class="titre1">CEMARENOV 33</p>
-                <p class="titre">Agent de sécurité du personnel  2016-2023</p>
-                <p class="titre1">SF2A</p>
-                <p class="titre">Monteur polyvalent  2013-2015</p>
-                <p class="titre1">USINE FAUTRAS</p>
-                <p class="titre" >Apprenti vendeur</p><p class="date">2010-2012</p>
-                <p class="titre1">WELDOM</p>
+                <h2>Stages</h2>
 
+                    <section class="survol">
+                      <p class="titre">Crossfit Saint-émilion. <span class="date">Avril 2025</span></p>
+                    </section>
+
+                    <section class="survol">
+                     <p class="titre">Imprimerie Roux. <span class="date">Février 2010</span></p>
+                    </section>
+
+                <h2>Expériences Professionnelles</h2>
+
+                    <section class="survol">
+                     <p class="titre">Technicien polyvalent  <span class="date">2023-2024</span></p>
+                     <p class="titre1">CEMARENOV 33</p>
+                    </section>
+
+                    <section class="survol">
+                     <p class="titre">Agent de sécurité du personnel  <span class="date">2016-2023</span></p>
+                     <p class="titre1">SF2A</p>
+                    </section>
+
+                    <section class="survol">
+                     <p class="titre">Monteur polyvalent  <span class="date">2013-2015</span></p>
+                     <p class="titre1">USINE FAUTRAS</p>
+                    </section>
+
+                    <section class="survol">
+                     <p class="titre" >Apprenti vendeur <span class="date">2010-2012</span></p>
+                     <p class="titre1">WELDOM</p>
+                    </section>
         </section>
     </main>
     <footer>
         <div class="réseaux">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-instagram"></i>
+            <a href="https://github.com/dashboard"><i class="fab fa-github" style="color: #ffffff;"></i></a>
         </div>
-        <p>Mise a jour le : JJ/MM/AAAA</p>
+        <p>Mise a jour le : 30/07/2025</p>
     </footer>
     </div>
 </body>
