@@ -35,7 +35,14 @@ header {
     border: solid;
     border-radius: 50%;
     object-fit: cover;
-
+}
+.photo-zoom {
+    display: inline-block;
+    cursor: zoom-in;
+    color: #ffffff;
+}
+.photo-zoom:hover .photo-profil {
+    transform: scale(1.03);
 }
 .identite {
     margin-left: 20px;
@@ -167,7 +174,11 @@ footer {
     margin-top: 0px;
     text-decoration: none;
 }
-.réseaux i {
+.réseau  {
     margin: 0 10px;
-
+    width: 1000px;
+    transition: 0.3s;
+}
+.réseau  :hover {
+    opacity: 0.5;
 }
