@@ -22,6 +22,7 @@ header {
     background: #17abba;
     color: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 .photo {
     display: flex;
@@ -40,19 +41,25 @@ header {
 }
 header h1 {
     margin: 0;
-    text-align: center;
+    font-family: 'Lato';
 }
 .contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px 10px;
-    margin: O auto ;
+    gap: 8px 20px;
+    width: fit-content;
+    margin: 10px auto 0 auto;
 }
 .box {
-    flex: 0 0 45%;
+    flex: 0 0 auto;
+    min-width: 110px;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
+}
+.box a {
+    text-decoration: none;
+    color: #ffffff;
 }
 main {
     display: flex;
@@ -72,7 +79,8 @@ main {
 .colonne-gauche h2 {
     color: #17abba;
     border-bottom: 1px solid #e3e3e3;
-    
+    font-family: 'lato';
+    font-weight: normal;
 }
 .colonne-droite {
     width: 100%;
@@ -83,6 +91,28 @@ main {
     color: #17abba;
     margin-top: 20px;
     border-bottom: 1px solid #e3e3e3;
+    font-family: 'lato';
+    font-weight: normal;
+}
+.titre {
+    font-family: 'lato';
+    font-weight: bolder;
+}
+.titre1 {
+    font-family: 'raleway';
+    font-style: italic;
+
+}
+.titre2 {
+    font-family: 'raleway';
+
+}
+.text {
+    font-family: 'raleway';
+}
+.date {
+    text-align: right;
+    color: #17abba;
 }
 footer {
     background-color: #17abba;
